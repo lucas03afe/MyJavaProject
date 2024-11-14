@@ -3,10 +3,10 @@ package exersice11;
 import java.util.Random;
 import java.util.Scanner;
 
-public class HelloWorld {
+public class HelloUserPlayGuessTheNumber {
 
     public static void main(String[] args) {
-        System.out.println("Hello you Dog!");
+        System.out.println("Hello User!");
 
         Random random = new Random();
         int generatedNumber = random.nextInt(99);
@@ -29,7 +29,4 @@ public class HelloWorld {
         }
 
     }
-
-
-
 }
