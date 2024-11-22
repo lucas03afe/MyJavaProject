@@ -23,6 +23,9 @@ public class CommandMain {
         System.out.println("Programmet avslutas...");
         System.out.println("Antal rader: " + logistik.getAmountOfRows());
         System.out.println("Antal tecken: " + logistik.getAmountOfCharacters());
+        System.out.println("Antal ord: " + logistik.getAmountOfWords());
+        System.out.println("Längsta ordet är: " + logistik.getLongestWord());
+
 
         scan.close();
     }
