@@ -2,7 +2,7 @@ package inlamningsuppgiftITP02;
 
 import java.util.Scanner;
 
-public class CommandReader {
+public class CommandMain {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
