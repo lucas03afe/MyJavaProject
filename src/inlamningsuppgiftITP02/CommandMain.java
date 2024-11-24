@@ -26,7 +26,5 @@ public class CommandMain {
         System.out.println("Antal ord: " + logistik.getAmountOfWords());
         System.out.println("Längsta ordet är: " + logistik.getLongestWord());
 
-
-        scan.close();
     }
 }
