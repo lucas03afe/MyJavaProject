@@ -40,7 +40,7 @@ public class CommandLogistik {
     }
 
     private void findLongestWord(String input) {
-        // Dela strängen i ord
+        // Dela upp strängen i ord
         String[] words = input.trim().split("\\s+");
         for (String word : words) {
             // Om ordet är längre än det nuvarande längsta ordet, uppdatera
